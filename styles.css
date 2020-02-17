@@ -39,7 +39,6 @@ body{
   background-image: url(img/testata.jpg);
   background-size: cover;
   position: relative;
-  /* siccome c'è border box è per quello che il padding viene contato nel width */
   border: 0.9vw white solid;
 }
 
@@ -69,7 +68,6 @@ nav {
   height: 50px;
   width: 100%;
   position: relative;
-  /* siccome c'è border box è per quello che il padding viene contato nel width */
 }
 
 ul {
@@ -129,6 +127,7 @@ ul {
   display:table;
   clear:both;
 }
+
 /* questa classe gestisce gli articoli all'interno della colonnaArticoli */
 .articolo{
   display: inline-block;
@@ -162,6 +161,7 @@ footer{
     border: 5px solid snow;
 }
 
+/* PRIMA RIGA FOOTER */
 .risorseEWidgets{
   height: 100px;
   width: 100%;
@@ -209,7 +209,7 @@ footer{
   margin: 5px;
 }
 
-
+/* SECONDA RIGA FOOTER */
 .creditiESocial{
   height: 100px;
   width: 100%;
