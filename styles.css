@@ -1,3 +1,11 @@
+/******************************************** *//* ************************************+** */
+/******************************************** *//* ************************************+** */
+/******************************************** *//* ************************************+** */
+/***BORDI E COLORI SERVONO SOLO A VISUALIZZARE BENE CIASCUN BLOCCO PER NON CONFONDERSI *****/
+/*****************************************+** *//* ************************************+** */
+/******************************************** *//* ************************************+** */
+/******************************************** *//* ************************************+** */
+
 *{
   margin: 0;
   padding: 0;
@@ -82,6 +90,7 @@ ul {
   background-color: lightgreen;
 }
 
+/* assegno al contenitore di elementi Float "clearfix" così che non collassi */
 .corpoSito:after {
   content:"";
   display:table;
@@ -96,6 +105,7 @@ ul {
   margin: 0.5%;
 }
 
+/* blocchi all'interno della colonna ASIDE */
 .blocco{
   display: inline-block;
   height: 150px;
@@ -113,12 +123,13 @@ ul {
   margin: 0.5%;
 }
 
+/* assegno al contenitore di elementi Float "clearfix" così che non collassi */
 .colonnaArticoli:after {
   content:"";
   display:table;
   clear:both;
 }
-
+/* questa classe gestisce gli articoli all'interno della colonnaArticoli */
 .articolo{
   display: inline-block;
   height: 150px;
@@ -151,14 +162,15 @@ footer{
     border: 5px solid snow;
 }
 
-.risorseWidgets{
+.risorseEWidgets{
   height: 100px;
   width: 100%;
   background-color: lightblue;
 
 }
 
-.risorseWidgets:after {
+/* assegno al contenitore di elementi Float "clearfix" così che non collassi */
+.risorseEWidgets:after {
   content:"";
   display:table;
   clear:both;
@@ -172,6 +184,7 @@ footer{
   margin: 4px;
 }
 
+/* assegno al contenitore di elementi Float "clearfix" così che non collassi */
 .utilities:after {
   content:"";
   display:table;
@@ -204,6 +217,7 @@ footer{
   margin-bottom: 20px;
 }
 
+/* assegno al contenitore di elementi Float "clearfix" così che non collassi */
 .creditiESocial:after {
   content:"";
   display:table;
