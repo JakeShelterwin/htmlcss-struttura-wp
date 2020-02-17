@@ -14,8 +14,8 @@ body{
   left: 12.5%;
   text-align: center;
   background-color: red;
-  top: 20px;
-  bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   position: relative;
 }
 
@@ -95,6 +95,16 @@ ul {
   float: left;
   margin: 0.5%;
 }
+
+.blocco{
+  display: inline-block;
+  height: 150px;
+  width: 250px;
+  background-color: aquamarine;
+  margin: 3px;
+
+}
+
 .colonnaArticoli{
   height: 500px;
   width: 49%;
@@ -102,6 +112,21 @@ ul {
   float: left;
   margin: 0.5%;
 }
+
+.colonnaArticoli:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.articolo{
+  display: inline-block;
+  height: 150px;
+  width: 500px;
+  background-color: brown;
+  margin: 5px;
+}
+
 .colonnaSearchTag{
   height: 500px;
   width: 24%;
@@ -110,15 +135,27 @@ ul {
   margin: 0.5%;
 }
 
+.search, .ashtag{
+  display: inline-block;
+  height: 150px;
+  width: 250px;
+  background-color: ivory;
+  margin: 5px;
+}
 
 /* *******************************+** *//* ****************************+** */
 /* *******************************+* FOOTER ***************************+** */
 /* *******************************+** *//* ****************************+** */
+
+footer{
+    border: 5px solid snow;
+}
+
 .risorseWidgets{
   height: 100px;
   width: 100%;
   background-color: lightblue;
-  border: 1px solid green;
+
 }
 
 .risorseWidgets:after {
@@ -127,14 +164,15 @@ ul {
   clear:both;
 }
 
-.risorsE{
+.utilities{
   height: 90px;
   width: 60%;
   background-color: orange;
   float: left;
+  margin: 4px;
 }
 
-.risorsE:after {
+.utilities:after {
   content:"";
   display:table;
   clear:both;
@@ -142,24 +180,22 @@ ul {
 
 .risorsa{
   height: 80px;
-  width: 33.3%;
-  background-color: blue;
+  width: 30%;
+  background-color: lavender;
   float: left;
   border: 1px solid yellow;
+  margin: 5px;
 }
 
 .widgets{
   height: 90px;
-  width: 40%;
+  width: 38%;
   background-color: lime;
   float: left;
-  border: 1px solid red;
+  border: 1px red solid;
+  margin: 5px;
 }
-.widgets:after {
-  content:"";
-  display:table;
-  clear:both;
-}
+
 
 .creditiESocial{
   height: 100px;
@@ -176,16 +212,16 @@ ul {
 
 .crediti {
   height: 90px;
-  width: 50%;
-  background-color: purple;
+  width: 48%;
+  background-color: white;
   float: left;
-  border: 1px solid red;
+  margin: 5px;
 }
 
 .social {
   height: 90px;
-  width: 50%;
-  background-color: purple;
+  width: 48%;
+  background-color: LightSkyBlue;
   float: left;
-  border: 1px solid red;
+  margin: 5px;
 }
