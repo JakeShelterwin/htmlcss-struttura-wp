@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/sfondo.png);
+  background-size: repeat;
+}
+
+.container{
+  width: 75%;
+  left: 12.5%;
+  text-align: center;
+  background-color: red;
+  top: 20px;
+  bottom: 20px;
+  position: relative;
+}
+
+/* *******************************+** *//* ****************************+** */
+/* ************************TESTATA E BARRA NAVIGAZIONE*****************+** */
+/* *******************************+** *//* ****************************+** */
+
+/* imposto dimensione posizione e sfondo della testata ESCLUSA la barra nav */
+.testata {
+  height: 230px;
+  width: 100%;
+  top: 2%;
+  background-image: url(img/testata.jpg);
+  background-size: cover;
+  position: relative;
+  /* siccome c'è border box è per quello che il padding viene contato nel width */
+  border: 0.9vw white solid;
+}
+
+/* nelle seguenti 3 classi gestisco la scritta sovraimposta all'immagine della testata */
+.testoSopraImmagine {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.testoSopraImmagine h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.sottoTitolo{
+  text-align: center;
+  font-size: 25px;
+}
+
+/* BARRA DI NAVIGAZIONE */
+nav {
+  background-color: green;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  /* siccome c'è border box è per quello che il padding viene contato nel width */
+}
+
+ul {
+  list-style: none;
+}
+
+/* *******************************+** *//* ****************************+** */
+/* ************************CORPO SITO 3 COLONNE*****************+** */
+/* *******************************+** *//* ****************************+** */
+.corpoSito{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: lightgreen;
+}
+
+.corpoSito:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.colonnaASIDE{
+  height: 500px;
+  width: 33.3%;
+  background-color: yellow;
+  float: left;
+}
+.colonnaArticoli{
+  height: 500px;
+  width: 33.3%;
+  background-color: pink;
+  float: left;
+}
+.colonnaSearchTag{
+  height: 500px;
+  width: 33.3%;
+  background-color: lightblue;
+  float: left;
+}
+
+
+/* *******************************+** *//* ****************************+** */
+/* *******************************+* FOOTER ***************************+** */
+/* *******************************+** *//* ****************************+** */
+.risorseWidgets{
+  height: 100px;
+  width: 100%;
+  background-color: lightblue;
+  border: 1px solid green;
+}
+
+.risorseWidgets:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.risorsE{
+  height: 90px;
+  width: 60%;
+  background-color: orange;
+  float: left;
+}
+
+.risorsE:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.risorsa{
+  height: 80px;
+  width: 33.3%;
+  background-color: blue;
+  float: left;
+  border: 1px solid yellow;
+}
+
+.widgets{
+  height: 90px;
+  width: 40%;
+  background-color: lime;
+  float: left;
+  border: 1px solid red;
+}
+.widgets:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.creditiESocial{
+  height: 100px;
+  width: 100%;
+  background-color: violet;
+  margin-bottom: 20px;
+}
+
+.creditiESocial:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.crediti {
+  height: 90px;
+  width: 50%;
+  background-color: purple;
+  float: left;
+  border: 1px solid red;
+}
+
+.social {
+  height: 90px;
+  width: 50%;
+  background-color: purple;
+  float: left;
+  border: 1px solid red;
+}
