@@ -66,6 +66,10 @@ nav {
 
 ul {
   list-style: none;
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* *******************************+** *//* ****************************+** */
@@ -86,21 +90,24 @@ ul {
 
 .colonnaASIDE{
   height: 500px;
-  width: 33.3%;
+  width: 24%;
   background-color: yellow;
   float: left;
+  margin: 0.5%;
 }
 .colonnaArticoli{
   height: 500px;
-  width: 33.3%;
+  width: 49%;
   background-color: pink;
   float: left;
+  margin: 0.5%;
 }
 .colonnaSearchTag{
   height: 500px;
-  width: 33.3%;
+  width: 24%;
   background-color: lightblue;
   float: left;
+  margin: 0.5%;
 }
 
 
