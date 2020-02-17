@@ -1,7 +1,7 @@
 /******************************************** *//* ************************************+** */
 /******************************************** *//* ************************************+** */
 /******************************************** *//* ************************************+** */
-/***BORDI E COLORI SERVONO SOLO A VISUALIZZARE BENE CIASCUN BLOCCO PER NON CONFONDERSI *****/
+/***BORDI COLORI E ALCUNI MARGIN SERVONO SOLO A VISUALIZZARE BENE CIASCUN BLOCCO PER NON CONFONDERSI *****/
 /*****************************************+** *//* ************************************+** */
 /******************************************** *//* ************************************+** */
 /******************************************** *//* ************************************+** */
@@ -109,7 +109,7 @@ ul {
 .blocco{
   display: inline-block;
   height: 150px;
-  width: 250px;
+  width: 85%;
   background-color: aquamarine;
   margin: 3px;
 
@@ -133,7 +133,7 @@ ul {
 .articolo{
   display: inline-block;
   height: 150px;
-  width: 500px;
+  width: 90%;
   background-color: brown;
   margin: 5px;
 }
@@ -149,7 +149,7 @@ ul {
 .search, .ashtag{
   display: inline-block;
   height: 150px;
-  width: 250px;
+  width: 85%;
   background-color: ivory;
   margin: 5px;
 }
@@ -192,8 +192,8 @@ footer{
 }
 
 .risorsa{
-  height: 80px;
-  width: 30%;
+  height: 85%;
+  width: 25%;
   background-color: lavender;
   float: left;
   border: 1px solid yellow;
@@ -202,7 +202,7 @@ footer{
 
 .widgets{
   height: 90px;
-  width: 38%;
+  width: 30%;
   background-color: lime;
   float: left;
   border: 1px red solid;
@@ -226,7 +226,7 @@ footer{
 
 .crediti {
   height: 90px;
-  width: 48%;
+  width: 45%;
   background-color: white;
   float: left;
   margin: 5px;
@@ -234,7 +234,7 @@ footer{
 
 .social {
   height: 90px;
-  width: 48%;
+  width: 45%;
   background-color: LightSkyBlue;
   float: left;
   margin: 5px;
